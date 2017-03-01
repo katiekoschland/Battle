@@ -1,10 +1,6 @@
 require 'capybara'
 
 describe "testing feature infrastructure", :type => :feature do
-  it "can run app and shows a message" do
-    visit '/'
-    expect(page).to have_content "Testing infrastructure working!"
-  end
 
   context '#names' do
     it "asks for players' names and saves them" do
