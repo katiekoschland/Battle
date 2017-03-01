@@ -12,7 +12,7 @@ describe "testing feature infrastructure", :type => :feature do
       fill_in "name_one", with: "Bruno"
       fill_in "name_two", with: "Bob"
       click_button 'Submit'
-      expect(page). to have_content "Bruno vs Bob"
+      expect(page).to have_content "Bruno vs Bob"
     end
   end
 end
